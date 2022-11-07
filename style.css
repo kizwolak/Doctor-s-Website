@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    overflow: visible;
+}
+
 @font-face {
     font-family: "Lato";
     src: url(assets/fonts/lato/Lato-Thin.ttf);
@@ -113,13 +118,15 @@ header>img {
     margin-left: 2em;
     margin-right: 2em;
     gap: 1em;
-    height: 46em;
+    height: 50em;
     line-height: 1.45em;
 }
 
 h1 {
     font-family: "Lato";
-    font-size: 2em;
+    font-size: 2.1em;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
 }
 
 h4 {
@@ -134,4 +141,21 @@ h4 {
     font-weight: 100;
     font-size: 0.9em;
     color: #6b6b6b;
+}
+
+#readMore {
+    background-color: #6793b6;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    padding: 0.5em 1em;
+    width: fit-content;
+    font-weight: 100;;
+}
+
+#aboutBg {
+    margin-top: -5em;
+    display: block;
+    height: 20em;
+    width: 100vw;
 }
