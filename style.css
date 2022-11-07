@@ -64,18 +64,6 @@ header>img {
     list-style: none;
     display: none;
     position: absolute;
-    padding-top: 12em;
-}
-
-.open {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5em;
-}
-
-.mobileList {
     width: 100vw;
     animation-duration: 0.5s;
     animation-name: animate-fade;
@@ -86,6 +74,19 @@ header>img {
 @keyframes animate-fade {
     0% { opacity: 0; }
     100% { opacity: 1; }
+}
+
+.mobileList.open {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12em;
+    gap: 0.5em;
+}
+
+#suwak.openImg {
+    margin-top: 12em;
 }
 
 #suwak {
