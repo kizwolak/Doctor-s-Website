@@ -5,6 +5,16 @@
 }
 
 @font-face {
+    font-family: "Lato";
+    src: url(assets/fonts/lato/Lato-Thin.ttf);
+}
+
+@font-face {
+    font-family: "Lato Bold";
+    src: url(assets/fonts/lato/Lato-Bold.ttf);
+}
+
+@font-face {
     font-family: "Open Sans";
     src: url(assets/fonts/opensans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
@@ -13,14 +23,14 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 0.73em;
+    font-size: 0.74em;
     margin-top: 1em;
     margin-bottom: 1em;
     font-family: 'Open Sans', sans-serif;
 }
 
 header>p {
-    font-weight: 300;
+    font-weight: bold;
 }
 
 header>em {
@@ -35,7 +45,7 @@ header>img {
 .headerImg {
     width: 70vw;
     display: block;
-    margin: 0.5em auto;
+    margin: 0 auto;
 }
 
 #imgLine::after {
@@ -93,4 +103,27 @@ header>img {
     margin-top: 1em;
     height: 10em;
     width: 100vw;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    gap: 1em;
+    height: 40em;
+}
+
+h1 {
+    font-family: "Lato";
+    font-size: 2em;
+}
+
+h4 {
+    color: #6793b6;
+    font-family: "Lato Bold";
+    letter-spacing: 0rem;
+    line-height: 1.5em;
+    font-size: 1rem;
 }
