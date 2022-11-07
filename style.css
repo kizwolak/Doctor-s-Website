@@ -27,6 +27,8 @@ header {
     margin-top: 1em;
     margin-bottom: 1em;
     font-family: 'Open Sans', sans-serif;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 header>p {
@@ -147,6 +149,17 @@ h4 {
     padding: 0.5em 1em;
     width: fit-content;
     font-weight: 100;;
+}
+
+.slider {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+h3 {
+    color: rgb(87, 87, 87);
+    font-family: "Lato";
+    margin-top: 0.5em;
 }
 
 
