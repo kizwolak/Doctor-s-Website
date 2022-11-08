@@ -9,7 +9,7 @@ mobileMenu.addEventListener('click', () => {
 
 
 //https://blaze-slider.dev/
-const el = document.querySelector('.blaze-slider')
+const el = document.querySelector('.blaze-slider');
 new BlazeSlider(el, {
   all: {
     loop: true,
@@ -17,6 +17,7 @@ new BlazeSlider(el, {
     enableAutoplay: true,
     autoplayInterval: 8000,
     transitionDuration: 300,
+    slideGap: '3em',
   },
   '(min-width: 500px)': {
     loop: false,
@@ -25,4 +26,4 @@ new BlazeSlider(el, {
   '(min-width: 900px)': {
     slidesToShow: 3,
   },
-  })
+});
