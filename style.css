@@ -158,6 +158,8 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 h3 {
@@ -179,12 +181,17 @@ width: 90vw;
     align-items: center;
 }
 
-.blaze-track > * {
+.blaze-track {
+    width: 80%;
     height: 45em;
+}
+
+.blaze-track > * {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .blaze-track> * > img {
@@ -196,4 +203,12 @@ width: 90vw;
     width: 60%;
     height: 15em;
     overflow: hidden;
+}
+
+.blaze-prev,
+.blaze-next {
+    width: 3em;
+    height: 5em;
+    margin: 0.3em;
+    border-radius: 50%;
 }
