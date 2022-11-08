@@ -154,18 +154,23 @@ h4 {
 .slider {
     margin-left: 2em;
     margin-right: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h3 {
     color: rgb(136, 134, 134);
     font-family: "Lato";
     margin-top: 0.5em;
+    margin-bottom: 1em;
 }
 
 /* blaze CSS */
 
 .blaze-slider {
-
+width: 90vw;
 }
 
 .blaze-track-container {
@@ -175,8 +180,20 @@ h3 {
 }
 
 .blaze-track > * {
-    width: 5em;
-    height: 5em;
+    height: 45em;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.blaze-track> * > img {
+    width: 100%;
+    height: 15em;
+}
+
+.blaze-track> * > a {
+    width: 60%;
+    height: 15em;
+    overflow: hidden;
+}
