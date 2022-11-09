@@ -175,6 +175,8 @@ h4 {
     align-items: center;
     padding-left: 2em;
     padding-right: 2em;
+    background-image: url(./assets/specjalizacja.jpg);
+    background-size: contain;
 }
 
 h3 {
@@ -198,7 +200,7 @@ width: 90vw;
 
 .blaze-track {
     width: 80%;
-    height: 45em;
+    height: 32em;
 }
 
 .blaze-track > * {
@@ -207,6 +209,7 @@ width: 90vw;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: white;
 }
 
 .blaze-track> * > img {
@@ -217,8 +220,8 @@ width: 90vw;
 
 .blaze-track> * > a {
     color: #33330E;
-    height: 15em;
-    font-size: 1.2em;
+    height: 3em;
+    font-size: 1.5em;
     font-weight: 500;
     text-decoration: none;
     font-family: "Lato Regular", sans-serif;
@@ -228,7 +231,9 @@ width: 90vw;
 }
 
 .blaze-track > * > p {
-    
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    margin-top: 6em;
 }
 
 .blaze-prev,
