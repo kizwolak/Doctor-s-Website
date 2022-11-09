@@ -291,9 +291,8 @@ width: 90vw;
 }
 
 footer {
-    margin-top: 3em;
-    margin-left: 2em;
-    margin-right: 2em;
+    padding-top: 2em;
+    margin: 3em 2em;
     font-family: "Open Sans", sans-serif;
     font-size: 0.75em;
 }
