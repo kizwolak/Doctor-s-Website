@@ -176,7 +176,7 @@ h4 {
     padding-left: 2em;
     padding-right: 2em;
     background-image: url(./assets/specjalizacja.jpg);
-    background-size: contain;
+    background-size: cover;
 }
 
 h3 {
@@ -204,7 +204,6 @@ width: 90vw;
 }
 
 .blaze-track > * {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -238,8 +237,9 @@ width: 90vw;
 
 .blaze-prev,
 .blaze-next {
-    width: 3em;
-    height: 5em;
+    width: 2.5em;
+    height: 2.5em;
     margin: 0.3em;
     border-radius: 50%;
+    border: none;
 }
