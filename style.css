@@ -167,6 +167,7 @@ h4 {
 }
 
 .slider {
+    margin-top: 1em;
     margin-left: 2em;
     margin-right: 2em;
     display: flex;
@@ -233,6 +234,8 @@ width: 90vw;
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
     margin-top: 6em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .blaze-prev,
