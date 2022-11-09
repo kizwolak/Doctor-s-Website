@@ -178,6 +178,7 @@ h4 {
     padding-right: 2em;
     background-image: url(./assets/specjalizacja.jpg);
     background-size: cover;
+    padding-bottom: 1em;
 }
 
 h3 {
@@ -245,4 +246,25 @@ width: 90vw;
     margin: 0.3em;
     border-radius: 50%;
     border: none;
+    background-color: rgb(219, 219, 219);
+}
+
+.visits {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1.5em;
+    font-weight: 300;
+    font-family: "Lato Light", sans-serif;
+    color: black;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: 1.1em;
+    letter-spacing: 0.1rem;
+}
+
+.visits > h1 {
+    font-size: 2em;
+    font-family: "Open Sans", sans-serif;
+    color: #6793B6;
 }
