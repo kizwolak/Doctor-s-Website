@@ -1,41 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link
-    rel="stylesheet"
-    href="https://unpkg.com/blaze-slider@1.8.0/dist/blaze.css"
-    />
+    <link rel="stylesheet" href="https://unpkg.com/blaze-slider@1.8.0/dist/blaze.css">
     <title>Document</title>
 </head>
 <body>
 
-    <header>
-        <img src="assets/phone_in_talk_FILL0_wght400_GRAD0_opsz48.svg" alt="">
-        <p>Umów się na wizytę: +48 604 420 790</p>
-        <em>(pon.-pt. od godziny 7:30-17:00)</em>
-    </header>
+  <header>
+    <img src="assets/phone_in_talk_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+    <p>Umów się na wizytę: +48 604 420 790</p>
+    <em>(pon.-pt. od godziny 7:30-17:00)</em>
+  </header>
 
+  <div class="nav">
     <div id="imgLine">
-        <img src="assets/logo.png" alt="Logo gabinetu" class="headerImg">
+      <img src="assets/logo.png" alt="Logo gabinetu" class="headerImg">
     </div>
+
+    <nav class="desktopNav">
+      <ul class="DesktopList">
+        <li>O MNIE</li>
+        <li>PRZYKŁADOWE OPERACJE</li>
+        <li>MIEJSCA PRZYJĘĆ</li>
+        <li>GABINET PRYWATNY</li>
+        <li>OPERACJE PRYWATNE</li>
+      </ul>
+    </nav>
 
     <div class="mobileMenu">
-        <img src="./assets/menu_FILL0_wght400_GRAD0_opsz48.svg" alt="Menu icon">
-        <p>MENU</p>
-        <ul class="mobileList">
-            <li>O MNIE</li>
-            <li>PRZYKŁADOWE OPERACJE</li>
-            <li>MIEJSCA PRZYJĘĆ</li>
-            <li>GABINET PRYWATNY</li>
-            <li>OPERACJE PRYWATNE</li>
-        </ul>
+      <img src="./assets/menu_FILL0_wght400_GRAD0_opsz48.svg" alt="Menu icon">
+      <p>MENU</p>
+      <ul class="mobileList">
+        <li>O MNIE</li>
+        <li>PRZYKŁADOWE OPERACJE</li>
+        <li>MIEJSCA PRZYJĘĆ</li>
+        <li>GABINET PRYWATNY</li>
+        <li>OPERACJE PRYWATNE</li>
+      </ul>
     </div>
-
-    <img src="assets/suwak.jpg" alt="Zdjęcie doktora" id = "suwak">
+  </div>
+  
+  <img src="assets/suwak.jpg" alt="Zdjęcie doktora" id = "suwak">
 
     <div class="aboutMe">
         <h1>O mnie</h1>
@@ -57,7 +66,7 @@
         <div class="blaze-slider">
             <div class="blaze-container">
               <div class="blaze-track-container">
-                <button class="blaze-prev"><</button>
+                <button class="blaze-prev">&lt;</button>
                 <div class="blaze-track">
                   <div>
                     <img src="./assets/2-285x180.jpg" alt="Zdjęcie operacji">
@@ -111,7 +120,7 @@
                 <p>ul. Jana Jerzego Hoffnera 10/2,</p>
                 <p>81-717 Sopot</p>
             </div>
-            <div style="overflow:hidden;resize:none;max-width:100%;width:100%;height:20em;"><div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:20em;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Jana+Jerzego+Haffnera+10/2,+Sopot,+Poland&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div></style></div>
+            <div style="overflow:hidden;resize:none;max-width:100%;width:100%;height:20em;"><div class="my-map-canvas"><iframe style="height:20em;width:100%;border:0;" src="https://www.google.com/maps/embed/v1/place?q=Jana+Jerzego+Haffnera+10/2,+Sopot,+Poland&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div></div>
         </div>
 
         <div class="hospital">
@@ -120,7 +129,7 @@
                 <p>ul. Generała Jana Henryka Dąbrowskiego 16,</p>
                 <p>14-300 Morąg</p>
             </div>
-            <div style="overflow:hidden;resize:none;max-width:100%;width:100%;height:20em;"><div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Jana+Jerzego+Haffnera+10/2,+Sopot,+Poland&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div></style></div>
+            <div style="overflow:hidden;resize:none;max-width:100%;width:100%;height:20em;"><div class="my-map-canvas"><iframe style="height:100%;width:100%;border:0;" src="https://www.google.com/maps/embed/v1/place?q=Jana+Jerzego+Haffnera+10/2,+Sopot,+Poland&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div></div>
         </div>
     </div>
 
