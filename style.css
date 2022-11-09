@@ -268,3 +268,32 @@ width: 90vw;
     font-family: "Open Sans", sans-serif;
     color: #6793B6;
 }
+
+.offices {
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.private, .hospital {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.private > div > p, .hospital > div > p {
+    font-size: 0.98em;
+}
+
+footer {
+    margin-top: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.75em;
+}
