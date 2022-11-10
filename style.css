@@ -415,10 +415,6 @@ footer {
         width: 4em;
         height: 4em;
     }
-
-    .blaze-slider {
-
-    }
     
     .slider {
         width: 100%;
@@ -440,8 +436,9 @@ footer {
     }
 
     .aboutMe > img {
-        width: 25em;
-        height: 25em;
+        width: 40em;
+        height: 20em;
+        margin-right: 2em;
     }
 
     
