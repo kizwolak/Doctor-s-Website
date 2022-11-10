@@ -421,7 +421,11 @@ footer {
     }
     
     .blaze-container {
-        width: 80%;
+        width: 100%;
+    }
+    
+    .blaze-slider {
+        width: 100%;
     }
 
     .blaze-track {
