@@ -250,6 +250,13 @@ h3 {
     font-family: "Lato Bold", sans-serif;
 }
 
+.totalSlider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .visits {
     display: flex;
     flex-direction: column;
@@ -420,7 +427,6 @@ footer {
         font-size: 2em;
         position: relative;
     }
-
     
     .slider {
         width: 100%;
@@ -434,6 +440,9 @@ footer {
     
     .blaze-slider {
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .blaze-track {
