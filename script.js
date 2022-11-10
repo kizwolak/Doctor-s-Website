@@ -20,7 +20,7 @@ new BlazeSlider(el, {
     slideGap: '3em',
   },
   '(min-width: 500px)': {
-    loop: false,
+    loop: true,
     slidesToShow: 2,
   },
   '(min-width: 900px)': {

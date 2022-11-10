@@ -123,7 +123,7 @@ header>img {
     width: 100vw;
 }
 
-.aboutMe {
+.text {
     display: flex;
     flex-direction: column;
     padding-top: 2em;
@@ -149,7 +149,7 @@ h4 {
     font-size: 1.5em;
 }
 
-.aboutMe>p {
+.text>p {
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
     font-size: 1.1em;
@@ -168,8 +168,6 @@ h4 {
 
 .slider {
     margin-top: 1em;
-    margin-left: 2em;
-    margin-right: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -246,7 +244,7 @@ width: 90vw;
     margin: 0.3em;
     border-radius: 50%;
     border: none;
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(238, 160, 15)
 }
 
 .visits {
@@ -322,15 +320,21 @@ footer {
     }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1300px) {
+
+    body {
+        margin: 0 8em;
+    }
+
     header {
         justify-content: flex-end;
-        gap: 3.5em;
+        gap: 4em;
+        margin-right: 1em;
     }
 
     .headerImg {
-        height: 5em;
-        width: 25em;
+        height: 4em;
+        width: 20em;
         justify-self: flex-start;
     }
 
@@ -348,19 +352,98 @@ footer {
     }
 
     .desktopNav {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;;
+        padding-left: -4em;
     }
 
     .desktopList {
         display: flex;
+        gap: 2.5em;
+    }
+
+    .desktopList > * {
+        white-space: nowrap;
     }
 
     .nav {
         display: flex;
+        gap: 10em;
+        margin: 0 8em;
     }
 
     ul {
         list-style: none;
     }
+
+    li {
+        color: #000000;
+        font-family: "Lato Bold", sans-serif;
+        font-weight: 600;
+    }
+
+    li:hover {
+        color: #6793b6;
+        -webkit-transition: color 200ms linear;
+        -moz-transition: color 200ms linear;
+        -o-transition: color 200ms linear;
+        -ms-transition: color 200ms linear;
+        transition: color 200ms linear;
+    }
+
+    #suwak {
+        height: 25em;
+        margin-right: 2em;
+        margin-left: 2em;
+        width: 100%;
+    }
+
+    #greetImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blaze-track > * > p {
+        font-size: 1.2em;
+        margin-top: 4.2em;
+    }
+
+    .blaze-prev,
+    .blaze-next {
+        width: 4em;
+        height: 4em;
+    }
+
+    .blaze-slider {
+
+    }
+    
+    .slider {
+        width: 100%;
+    }
+    
+    .blaze-container {
+        width: 80%;
+    }
+
+    .blaze-track {
+        height: 35em;
+        width: 100%;
+    }
+        
+    .aboutMe {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .aboutMe > img {
+        width: 25em;
+        height: 25em;
+    }
+
+    
 
 }
