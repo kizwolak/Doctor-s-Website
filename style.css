@@ -189,13 +189,15 @@ h3 {
 /* blaze CSS */
 
 .blaze-slider {
-width: 90vw;
+    width: 90vw;
+    padding-bottom: 2em;
 }
 
 .blaze-track-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .blaze-track {
@@ -241,10 +243,11 @@ width: 90vw;
 .blaze-next {
     width: 2.5em;
     height: 2.5em;
-    margin: 0.3em;
     border-radius: 50%;
     border: none;
-    background-color: rgb(238, 160, 15)
+    background-color: rgb(238, 160, 15);
+    position: absolute;
+    font-family: "Lato Bold", sans-serif;
 }
 
 .visits {
@@ -320,7 +323,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1600px) {
 
     body {
         margin: 0 8em;
@@ -329,7 +332,7 @@ footer {
     header {
         justify-content: flex-end;
         gap: 4em;
-        margin-right: 1em;
+        margin-right: 4em;
     }
 
     .headerImg {
@@ -355,7 +358,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;;
-        padding-left: -4em;
+        width: 100%;
     }
 
     .desktopList {
@@ -412,9 +415,12 @@ footer {
 
     .blaze-prev,
     .blaze-next {
-        width: 4em;
-        height: 4em;
+        width: 2em;
+        height: 2em;
+        font-size: 2em;
+        position: relative;
     }
+
     
     .slider {
         width: 100%;
@@ -422,6 +428,8 @@ footer {
     
     .blaze-container {
         width: 100%;
+        display: flex;
+        align-items: center;
     }
     
     .blaze-slider {
@@ -437,14 +445,13 @@ footer {
         position: relative;
         display: flex;
         align-items: center;
+        margin-top: 1em;
+        margin-bottom: 3em;
     }
 
     .aboutMe > img {
-        width: 40em;
-        height: 20em;
+        width: 40%;
+        height: 20%;
         margin-right: 2em;
     }
-
-    
-
 }
