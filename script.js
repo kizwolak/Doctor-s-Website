@@ -19,11 +19,12 @@ new BlazeSlider(el, {
     transitionDuration: 300,
     slideGap: '3em',
   },
-  '(min-width: 500px)': {
-    loop: true,
-    slidesToShow: 1,
-  },
   '(min-width: 900px)': {
+    loop: true,
+    slidesToShow: 2,
+  },
+  '(min-width: 1200px)': {
+    loop: true,
     slidesToShow: 3,
   },
 });
