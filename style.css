@@ -222,7 +222,7 @@ h3 {
 
 .blaze-track {
     width: 80%;
-    height: 32em;
+    height: 40em;
 }
 
 .blaze-track > * {
@@ -254,7 +254,7 @@ h3 {
 .blaze-track > * > p {
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
-    margin-top: 7em;
+    margin-top: 10em;
     padding-left: 1em;
     padding-right: 1em;
 }
