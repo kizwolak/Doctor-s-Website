@@ -166,6 +166,10 @@ h4 {
     font-weight: 100;;
 }
 
+.aboutMe > img {
+    width: 100%;
+}
+
 .slider {
     margin-top: 1em;
     display: flex;
@@ -249,13 +253,6 @@ h3 {
     font-family: "Lato Bold", sans-serif;
 }
 
-.totalSlider {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-}
-
 .visits {
     display: flex;
     flex-direction: column;
@@ -301,6 +298,10 @@ h3 {
     font-size: 0.98em;
 }
 
+iframe {
+    width: 100%;
+}
+
 footer {
     padding-top: 2em;
     margin: 3em 2em;
@@ -323,7 +324,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 1600px) {
+/* @media screen and (min-width: 1600px) {
 
     body {
         margin: 0 8em;
@@ -471,4 +472,4 @@ footer {
         width: 30em;
         height: 30em;
     }
-}
+} */
