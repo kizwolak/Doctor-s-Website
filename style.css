@@ -246,15 +246,14 @@ h3 {
     border-radius: 50%;
     border: none;
     background-color: rgb(255, 201, 101);
-    position: absolute;
     font-family: "Lato Bold", sans-serif;
 }
 
 .totalSlider {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
+
 }
 
 .visits {
@@ -300,12 +299,6 @@ h3 {
 
 .private > div > p, .hospital > div > p {
     font-size: 0.98em;
-}
-
-.my-map-canvas {
-    height:100%; 
-    width:100%;
-    max-width:100%;
 }
 
 footer {

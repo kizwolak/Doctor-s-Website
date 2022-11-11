@@ -21,7 +21,7 @@ new BlazeSlider(el, {
   },
   '(min-width: 500px)': {
     loop: true,
-    slidesToShow: 2,
+    slidesToShow: 1,
   },
   '(min-width: 900px)': {
     slidesToShow: 3,
