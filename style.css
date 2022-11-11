@@ -198,7 +198,7 @@ h3 {
 /* blaze CSS */
 
 .totalSlider {
-    width: 100vw;
+    width: 100%;
 }
 
 .blaze-slider {
@@ -210,7 +210,7 @@ h3 {
 }
 
 .blaze-container {
-    width: 80%;
+    width: 75%;
 }
 
 .blaze-track-container {
