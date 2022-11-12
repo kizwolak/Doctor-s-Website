@@ -421,24 +421,31 @@ footer {
         transition: color 200ms linear;
     }
 
+    .headerImg {
+        height: 5em;
+        width: 30em;
+        justify-self: flex-start;
+    }
+
 }
 
-/* @media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
 
     body {
-        margin: 0 8em;
+        margin: 0 2em;
     }
 
     header {
         justify-content: flex-end;
-        gap: 4em;
-        margin-right: 4em;
+        gap: 2em;
+        margin-right: 2em;
     }
 
     .headerImg {
         height: 4em;
         width: 20em;
         justify-self: flex-start;
+        margin-left: 4em;
     }
 
     #imgLine::after {
@@ -463,17 +470,17 @@ footer {
 
     .desktopList {
         display: flex;
-        gap: 2.5em;
+        gap: 1em;
     }
 
     .desktopList > * {
         white-space: nowrap;
+        font-size: 1.1em;
     }
 
     .nav {
         display: flex;
-        gap: 10em;
-        margin: 0 8em;
+        gap: 1em;
     }
 
     ul {
@@ -496,7 +503,7 @@ footer {
     }
 
     #suwak {
-        height: 30em;
+        height: 25em;
         margin-right: 2em;
         margin-left: 2em;
         width: 100%;
@@ -506,6 +513,10 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .blaze-track {
+        height: 45em;
     }
 
     .blaze-track > * > p {
@@ -520,32 +531,14 @@ footer {
         font-size: 2em;
         position: relative;
     }
-    
-    .slider {
+
+    .blaze-track-container {
         width: 100%;
-    }
-    
-    .blaze-container {
-        width: 100%;
-        display: flex;
-        align-items: center;
-    }
-    
-    .blaze-slider {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
-    .blaze-track {
-        height: 35em;
-        width: 100%;
-    }
-        
     .aboutMe {
-        position: relative;
         display: flex;
+        flex-direction: row;
         align-items: center;
         margin-top: 1em;
         margin-bottom: 3em;
@@ -565,10 +558,20 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        gap: 10em;
     }
 
-    .my-map-canvas {
-        width: 30em;
-        height: 30em;
+    .offices > * {
+        width: 20em;
     }
-} */
+
+    .hospital {
+        width: 25em;
+    }
+
+
+    .my-map-canvas {
+        width: 70em;
+        height: 70em;
+    }
+}
