@@ -377,6 +377,49 @@ footer {
         width: 50%;
         height: 20%;
     }
+    
+    .mobileMenu {
+        display: none;
+    }
+
+    .desktopNav {
+        display: flex;
+        justify-content: center;
+        align-items: center;;
+        width: 100%;
+    }
+
+    .desktopList {
+        display: flex;
+        gap: 2.5em;
+    }
+
+    .desktopList > * {
+        white-space: nowrap;
+    }
+
+    #imgLine::after {
+        background: transparent;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        color: #000000;
+        font-family: "Lato Bold", sans-serif;
+        font-weight: 600;
+    }
+
+    li:hover {
+        color: #6793b6;
+        -webkit-transition: color 200ms linear;
+        -moz-transition: color 200ms linear;
+        -o-transition: color 200ms linear;
+        -ms-transition: color 200ms linear;
+        transition: color 200ms linear;
+    }
 
 }
 
