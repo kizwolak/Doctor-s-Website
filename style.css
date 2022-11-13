@@ -189,7 +189,7 @@ h4 {
 }
 
 h3 {
-    color: rgb(136, 134, 134);
+    color: rgb(95, 95, 95);
     font-family: "Lato";
     margin-top: 0.5em;
     margin-bottom: 1em;
@@ -489,7 +489,9 @@ footer {
 
     .nav {
         display: flex;
-        gap: 1em;
+        gap: 7em;
+        width: 50vw;
+        font-size: 0.9em;
     }
 
     ul {
@@ -526,7 +528,7 @@ footer {
 
     .blaze-track {
         height: 45em;
-        width: 85em;
+        width: 55em;
     }
 
     .blaze-track > * > p {
@@ -540,10 +542,6 @@ footer {
         height: 2em;
         font-size: 2em;
         position: relative;
-    }
-
-    .blaze-track-container {
-        width: 100%;
     }
 
     .aboutMe {
@@ -584,4 +582,43 @@ footer {
         width: 70em;
         height: 70em;
     }
+
+
+
+}
+
+@media screen and (min-width: 1600px) {
+
+    #suwak {
+        height: 30em;
+    }
+
+    .nav {
+        font-size: 1.03em;
+        gap: 20em;
+    }
+
+    .blaze-track {
+        height: 45em;
+        width: 85em;
+    }
+
+    .blaze-track > * > p {
+        font-size: 1.2em;
+        margin-top: 4.2em;
+    }
+
+    .blaze-prev,
+    .blaze-next {
+        width: 2em;
+        height: 2em;
+        font-size: 2em;
+        position: relative;
+    }
+
+    .blaze-track-container {
+        width: 100%;
+    }
+
+
 }
