@@ -440,6 +440,10 @@ footer {
         width: 50%;
         height: 20%;
     }
+
+    .description > img {
+        float: right;
+    }
     
     .mobileMenu {
         display: none;
