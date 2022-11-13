@@ -423,10 +423,7 @@ footer {
 
 @media screen and (min-width: 900px) {
 
-    #imgLine > img {
-        height: 7em;
-        width: 30em;
-    }
+
     
     .blaze-track {
         height: 35em;
