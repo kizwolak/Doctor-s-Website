@@ -172,19 +172,18 @@ h2::after {
     flex-direction: column;
     justify-content: center;
     gap: 1em;
-    align-items: center;
     font-family: "Open Sans", sans-serif;
     font-size: 1em;
-    color: black;
 }
 
 .descText > * {
     color: black;
+    font-weight: 100;
 }
 
 .description > img {
-    width: 70%;
-    height: 70%;
+    width: 15em;
+    height: 20em;
 }
 
 h4 {
@@ -418,6 +417,11 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
+
+    #imgLine > img {
+        height: 8em;
+        width: 30em;
+    }
     
     .blaze-track {
         height: 35em;
