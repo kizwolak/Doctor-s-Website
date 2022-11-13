@@ -182,7 +182,7 @@ h2::after {
 }
 
 .description > img {
-    width: 15em;
+    width: 17em;
     height: 20em;
 }
 
@@ -372,8 +372,13 @@ footer {
 
 @media screen and (min-width: 600px) {
 
-    .headerImg {
+
+    #headerImg {
         height: 8em;
+    }
+
+    h2 {
+        margin-top: 0.5em
     }
 
     .blaze-track {
@@ -419,7 +424,7 @@ footer {
 @media screen and (min-width: 900px) {
 
     #imgLine > img {
-        height: 8em;
+        height: 7em;
         width: 30em;
     }
     
@@ -428,7 +433,7 @@ footer {
     }
 
     #suwak {
-        height: 18em;
+        height: 20em;
     }
 
     .aboutMe > img {
