@@ -168,6 +168,8 @@ h2::after {
 
 .descText {
     margin-top: 1.5em;
+    margin-left: 2em;
+    margin-right: ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -423,8 +425,6 @@ footer {
 
 @media screen and (min-width: 900px) {
 
-
-    
     .blaze-track {
         height: 35em;
     }
@@ -437,13 +437,26 @@ footer {
         width: 50%;
         height: 20%;
     }
-
-    .description > img {
-        float: right;
-    }
     
     .mobileMenu {
         display: none;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .descText {
+        display: flex;
+        gap: 1.2em;
+    }
+    
+    .description > img {
+        margin-left: 1em;
+        width: 20em;
+        height: 25em;
+        float: right;
     }
 
     .desktopNav {
@@ -490,6 +503,10 @@ footer {
         height: 5em;
         width: 30em;
         justify-self: flex-start;
+    }
+
+    h2 {
+        font-size: 2.5em;
     }
 
 }
