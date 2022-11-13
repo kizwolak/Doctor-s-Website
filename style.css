@@ -419,13 +419,14 @@ footer {
         list-style: none;
     }
 
-    li {
+    a {
         color: #000000;
         font-family: "Lato Bold", sans-serif;
         font-weight: 600;
+        text-decoration: none;
     }
 
-    li:hover {
+    a:hover {
         color: #6793b6;
         -webkit-transition: color 200ms linear;
         -moz-transition: color 200ms linear;
@@ -644,8 +645,8 @@ footer {
     }
 
     .blaze-track {
-        height: 45em;
-        width: 90em;
+        height: 35em;
+        width: 95em;
     }
 
     .blaze-container {
@@ -654,7 +655,7 @@ footer {
 
     .blaze-track > * > p {
         font-size: 1.2em;
-        margin-top: 4.2em;
+        margin-top: 2em;
     }
 
     .blaze-prev,
