@@ -714,11 +714,11 @@ footer {
 
     .blaze-track {
         height: 35em;
-        width: 95em;
+        width: 80em;
     }
 
     .blaze-container {
-        width: 90%;
+        width: 80%;
     }
 
     .blaze-track > * > p {
