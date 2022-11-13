@@ -361,6 +361,15 @@ footer {
         height: 20%;
     }
 
+    .offices {
+        display: flex;
+        flex-direction: row;
+    }
+
+    iframe {
+        width: 20em;
+    }
+
 }
 
 @media screen and (min-width: 900px) {
@@ -517,6 +526,7 @@ footer {
 
     .blaze-track {
         height: 45em;
+        width: 85em;
     }
 
     .blaze-track > * > p {
