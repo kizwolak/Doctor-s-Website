@@ -532,7 +532,7 @@ footer {
 
     .blaze-track {
         height: 45em;
-        width: 55em;
+        width: 53em;
     }
 
     .blaze-track > * > p {
@@ -570,7 +570,7 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        gap: 10em;
+        gap: 3em;
     }
 
     .offices > * {
@@ -587,9 +587,50 @@ footer {
         height: 70em;
     }
 
-
-
 }
+
+@media screen and (min-width: 1300px) {
+
+    .blaze-track {
+        width: 55em;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+
+    .blaze-track {
+        width: 61em;
+    }
+}
+
+@media screen and (min-width: 1380px) {
+
+    .blaze-track {
+        width: 60em;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    .blaze-track {
+        width: 60em;
+    }
+}
+
+@media screen and (min-width: 1446px) {
+
+    .blaze-track {
+        width: 65em;
+    }
+}
+
+@media screen and (min-width: 1548px) {
+
+    .blaze-track {
+        width: 67em;
+    }
+}
+
 
 @media screen and (min-width: 1600px) {
 
@@ -604,7 +645,11 @@ footer {
 
     .blaze-track {
         height: 45em;
-        width: 85em;
+        width: 90em;
+    }
+
+    .blaze-container {
+        width: 90%;
     }
 
     .blaze-track > * > p {
