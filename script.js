@@ -3,8 +3,8 @@ let mobileList = document.querySelector(".mobileList");
 let suwak = document.querySelector("#suwak");
 
 mobileMenu.addEventListener('click', () => {
-    mobileList.classList.toggle('open');
-    suwak.classList.toggle('openImg');
+  mobileMenu.classList.toggle('open');
+  mobileList.classList.toggle('open');
 });
 
 
