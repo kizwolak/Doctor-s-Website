@@ -798,7 +798,7 @@ h2::after {
     }
 
     .example {
-        width: 80em;
+        width: 75em;
     }
 
     .gabinet {
@@ -851,7 +851,7 @@ h2::after {
     }
 
     #prywatneDesc {
-        margin: 0 15em;
+        margin: 0 10em;
     }
 }
 
