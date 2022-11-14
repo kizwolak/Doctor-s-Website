@@ -463,7 +463,15 @@ h2::after {
     padding-right: 1em;
 }
 
- 
+.gabinet {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;    
+    font-family: "Open Sans", sans-serif;
+    margin: 2em 2em;
+}
+
+
 @media screen and (min-width: 600px) {
 
 
@@ -744,13 +752,17 @@ h2::after {
     }
 
     .offices > * {
-        width: 20em;
+        width: 30em;
+    }
+
+    iframe {
+        width: 25em;
+        height: 20em;
     }
 
     .hospital {
         width: 25em;
     }
-
 
     .my-map-canvas {
         width: 70em;
@@ -763,6 +775,7 @@ h2::after {
 
     .example {
         width: 75em;
+        ;
     }
 
 }
