@@ -471,6 +471,30 @@ h2::after {
     margin: 2em 2em;
 }
 
+.h4Office {
+    color: #292929;
+    font-family: "Lato", sans-serif;
+    font-size: 2.3em;
+}
+
+#prywatneDesc {
+    font-family: "Open Sans", sans-serif;
+    margin: 0 2em;
+    line-height: 1.5em;
+}
+
+#prywatneDesc > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#prywatneDesc > a:hover {
+    color: rgb(180, 178, 178);
+    -webkit-transition: color 150ms linear;
+    -ms-transition: color 150ms linear;
+    transition: color 150ms linear;
+}
+
 
 @media screen and (min-width: 600px) {
 
@@ -784,6 +808,10 @@ h2::after {
         font-family: "Open Sans", sans-serif;
         margin: 2em 10em;
     }
+    
+    #prywatneDesc {
+        margin: 0 10em;
+    }
 
 }
 
@@ -820,6 +848,10 @@ h2::after {
         gap: 1em;    
         font-family: "Open Sans", sans-serif;
         margin: 2em 15em;
+    }
+
+    #prywatneDesc {
+        margin: 0 15em;
     }
 }
 
