@@ -775,7 +775,14 @@ h2::after {
 
     .example {
         width: 75em;
-        ;
+    }
+
+    .gabinet {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;    
+        font-family: "Open Sans", sans-serif;
+        margin: 2em 10em;
     }
 
 }
@@ -805,6 +812,14 @@ h2::after {
 
     .blaze-track {
         width: 60em;
+    }
+
+    .gabinet {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;    
+        font-family: "Open Sans", sans-serif;
+        margin: 2em 15em;
     }
 }
 
